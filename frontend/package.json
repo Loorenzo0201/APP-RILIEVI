@@ -15,5 +15,18 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "vite": "^4.4.0"
-  }
+  },
+  "activationEvents": [
+    "onLanguage:csv",
+    "onLanguage:tsv",
+    "onLanguage:csv (semicolon)",
+    "onLanguage:csv (pipe)",
+    "onLanguage:csv (whitespace)",
+    "onLanguage:dynamic csv",
+    "onLanguage:plaintext",
+    "onCommand:rainbow-csv.RBQL",
+    "onCommand:rainbow-csv.RainbowSeparator",
+    "onCommand:rainbow-csv.SampleHead",
+    "onCommand:rainbow-csv.SampleTail"
+  ]
 }
